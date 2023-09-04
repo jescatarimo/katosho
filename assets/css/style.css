@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding: 20;
+    margin: 20px;
+    
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 195px;
+    margin-top: -35px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(2, 2, 252);
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+ul li a:hover{
+    color: rgb(214, 2, 2);
+}
+
+
+
+.content{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Cambria';
+    margin-bottom: 30px;
+}
+
+.content h2{
+    
+    font-weight: bold;
+    color: rgb(5, 5, 255);
+}
+
+.content p{
+    background: rgb(234, 234, 247);
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 250px;
+    padding-left: 250px;
+    font-size: 20px;
+}
+
+.pr{
+    
+    width: 150px;
+    height: 40px;
+    background: rgb(248, 4, 4);
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+}
+
+.pr a{
+    text-decoration: none;
+    color: rgb(252, 252, 250);
+    font-size: 15px;
+}
+
+
+.search .srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(5, 5, 255);
+    
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(8, 8, 8);
+    border: 4px solid rgb(8, 8, 8);
+    color: rgb(248, 244, 2);
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn :focus{
+    outline: none;
+}
+
+.grid-container{
+    text-align: center;
+    
+}
+
+.grid-container h2{
+    color: rgb(5, 5, 255);
+    font-weight: bold;
+}
+
+.par p{
+    margin: 30px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+ol{
+    list-style:square;
+    font-size: 20px;
+    
+}
+
+ol li {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    transition: 0.4 ease-in-out;
+}
+
+ol li a{
+    text-decoration: none;
+    color: rgb(2, 2, 252);
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+
+footer{
+    background-color: rgb(248, 4, 4);
+    font-size: 20px;
+    color: rgb(252, 251, 251);
+    margin-top: 5;
+    padding: 15PX;
+
+}
+footer h1{
+    text-align: center;
+}
+
+
+h2{
+    color: rgb(5, 5, 252);
+    text-align: center;
+}
+
+.cls{
+    margin: 15px;
+    padding: 5px;
+}
+
+.foorm{
+    margin: 30px;
+}
+
+placeholder{
+    width: 300px;
+}
+
+
+.cont{padding-top: -500px;
+}
+
+.fom{
+    width: 250px;
+    height: 50px;
+}
+
+.frm{
+    width: 450px;
+    height: 200px;
+}
